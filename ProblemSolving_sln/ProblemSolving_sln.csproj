@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Leetcode_217_Contains_Duplicate\Leetcode_217_Contains_Duplicate.csproj" />
+    <ProjectReference Include="..\Leetcode_242_Valid_Anagram\Leetcode_242_Valid_Anagram.csproj" />
   </ItemGroup>
 
 </Project>
