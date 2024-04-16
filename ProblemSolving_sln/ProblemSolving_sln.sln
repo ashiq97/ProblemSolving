@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemSolving_sln", "ProblemSolving_sln.csproj", "{CC1CED14-896A-416E-BCAB-2AA3244105B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProblemSolving_sln", "ProblemSolving_sln.csproj", "{CC1CED14-896A-416E-BCAB-2AA3244105B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode_217_Contains_Duplicate", "..\Leetcode_217_Contains_Duplicate\Leetcode_217_Contains_Duplicate.csproj", "{4017B607-9EB8-498B-8385-9D0DB717B368}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CC1CED14-896A-416E-BCAB-2AA3244105B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC1CED14-896A-416E-BCAB-2AA3244105B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC1CED14-896A-416E-BCAB-2AA3244105B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4017B607-9EB8-498B-8385-9D0DB717B368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4017B607-9EB8-498B-8385-9D0DB717B368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4017B607-9EB8-498B-8385-9D0DB717B368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4017B607-9EB8-498B-8385-9D0DB717B368}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
