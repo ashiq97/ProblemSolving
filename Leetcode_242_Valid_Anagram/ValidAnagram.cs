@@ -16,26 +16,26 @@ namespace Leetcode_242_Valid_Anagram
 
         // solution 1:
 
-        //public static bool IsAnagram(string s, string t)
-        //{
-        //  if(s.Length != t.Length) 
-        //        return false;
+        public static bool IsAnagram(string s, string t)
+        {
+            if (s.Length != t.Length)
+                return false;
 
-        //    var sArray = s.ToArray();
-        //    var tArray = t.ToArray();
+            var sArray = s.ToArray();
+            var tArray = t.ToArray();
 
-        //    Array.Sort(sArray);
-        //    Array.Sort(tArray);
+            Array.Sort(sArray);
+            Array.Sort(tArray);
 
-        //    var n1 = new String(sArray);
-        //    var n2 = new String(tArray);
+            var n1 = new String(sArray);
+            var n2 = new String(tArray);
 
-        //    if (n1 == n2)
-        //        return true;
-        //    else 
-        //        return false;
+            if (n1 == n2)
+                return true;
+            else
+                return false;
 
-        //}
+        }
 
         // solution 2:
         //public static bool IsAnagram(string s, string t)
@@ -51,7 +51,7 @@ namespace Leetcode_242_Valid_Anagram
         //    {
         //        if (!slist.ContainsKey(s[i]))
         //            slist.Add(s[i], 0);
-                
+
         //        if (!tlist.ContainsKey(t[i]))
         //            tlist.Add(t[i], 0);
         //    }
@@ -77,7 +77,7 @@ namespace Leetcode_242_Valid_Anagram
         // solution 3:
         //public static bool IsAnagram(string s, string t)
         //{
-            
+
         //}
     }
 }
