@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Leetcode_125_Valid_Palindrome\Leetcode_125_Valid_Palindrome.csproj" />
     <ProjectReference Include="..\Leetcode_128_longest-consecutive-sequence\Leetcode_128_longest-consecutive-sequence.csproj" />
     <ProjectReference Include="..\Leetcode_217_Contains_Duplicate\Leetcode_217_Contains_Duplicate.csproj" />
     <ProjectReference Include="..\Leetcode_242_Valid_Anagram\Leetcode_242_Valid_Anagram.csproj" />
